@@ -17,7 +17,7 @@ DATABASE_NAME = os.environ.get("DATABASE_NAME", "tulinks")
 DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Kiran6412:160650913@cluster0.mq4z0hu.mongodb.net/?retryWrites=true&w=majority") 
 OWNER_ID =  int(os.environ.get("OWNER_ID", "678272787")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
-ADMINS.append(Id Owned Id)
+ADMINS.append(OWNER_ID)
 #  Optionnal variables
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001946243122")) 
 UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "tulinks_official") # For Force Subscription
