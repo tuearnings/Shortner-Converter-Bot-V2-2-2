@@ -3,9 +3,9 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
 START_MESSAGE = '''**Hello, {}
-I Am ShortnerFly.com, Bulk Link Converter. I Can Convert Links Directly From Your ShortnerFly Account,
+I Am tulinks.one, Bulk Link Converter. I Can Convert Links Directly From Your tulinks Account,
     
-1. Go To 👉 https://ShortnerFly.com/member/tools/api  
+1. Go To 👉 https://tulinks.one/member/tools/api  
 2. Than Copy API Key
 3. Than Type /api than give a single space and than paste your API Key (see example to understand more...)**
 
@@ -18,13 +18,12 @@ Example:** `/api de303d5270f481aec928f39883da7b7f9a8812ac `
 **➕ Hit** 👉 /channel Command To Get Help About Adding your channel to bot.
 **➕ Hit** 👉 /footer To Get Help About Adding your Custom Footer to bot.
 
-If You Want Any **Other Shortner** Link Converter Bot Instead Of Shortnerfly than **contact** at 👉 @Cyniteofficial (all **shortners** support available.)
-'''
+
 
 HELP_MESSAGE = '''**Hello, {}
-I Am ShortnerFly, Bulk Link Converter Bot. I Can Convert Links Directly From Your ShortnerFly Account,**
+I Am tulinks, Bulk Link Converter Bot. I Can Convert Links Directly From Your tulinks Account,**
     
-1. Go To 👉 https://ShortnerFly.com/member/tools/api  
+1. Go To 👉 https://tulinks.one/member/tools/api  
 2. Than **Copy API** Key
 3. Than Type **/api** than give a **single space** and than **paste** your **API** Key (**see example** to understand more...)
 
@@ -37,14 +36,12 @@ Example:** `/api de303d5270f481aec928f39883da7b7f9a8812ac `
 **➕ Hit** 👉 /channel Command To Get Help About Adding your channel to bot.
 **➕ Hit** 👉 /footer To Get Help About Adding your Custom Footer to bot.
 
-If You Want Any **Other Shortner** Link Converter Bot Instead Of ""Shortnerfly** than **contact** at 👉 @Cyniteofficial (all **shortners support** available.)**
-'''
 
-ABOUT_TEXT = '''**Hey! My name is @ShortnerFlyBot. I am Shortener Fly Link Converter Bot.**
+ABOUT_TEXT = '''**Hey! My name is @Tulinks_shortner2_bot. I am tulinks Link Converter Bot.**
 
 **⚡Features⚡**
 
-• I can **Convert any** links or posts to your **Shortnerfly** link / post. (Button Links Posts, Hidden links/Hyperlinks All Are Supported)
+• I can **Convert any** links or posts to your **tulinks** link / post. (Button Links Posts, Hidden links/Hyperlinks All Are Supported)
 
 • I Can **auto** add custom **footer text** to your every post. Hit 👉 /footer To know more...
 
@@ -56,7 +53,6 @@ ABOUT_TEXT = '''**Hey! My name is @ShortnerFlyBot. I am Shortener Fly Link Conve
 
 • **No** need to share **password or email** to convert links.**
 
- Anyone who want to use any **other shortner** instead of ShortnerFly than **contact** at 👉 @Cyniteofficial (all **shortners support** available.)
 
 **Click On Custom Alias To Create Custom Link**
 '''
@@ -65,7 +61,7 @@ CUSTOM_ALIAS_MESSAGE = """For Custom Alias, `[link] | [custom_alias]`, Send in t
 
 This feature works only in private mode only
 
-Ex: https://t.me/shortnerfly | Shortnerfly"""
+Ex: https://t.me/tulinks_official | Shortnerfly"""
 
 
 ADMINS_MESSAGE = """
@@ -149,18 +145,18 @@ This Text will be added to the **bottom** of every message **caption** or text
 For adding **line break** use \n
 To Remove Footer Text: `/footer remove`"""
 
-USERNAME_TEXT = """**Hello Harman, I am shortnerfly.com, Bulk Link Converter Bot From Linked shortnerfly.com Account,**
+USERNAME_TEXT = """**Hello Harman, I am tulinks.one, Bulk Link Converter Bot From Linked tulinks.one Account,**
 
 **🌟 Type** /channel (channel link or username)
 
 **example:**
-/channel @shortnerfly
+/channel @tulinks_official
 Or
-/channel https://t.me/shortnerfly
+/channel https://t.me/tulinks_official
 
 **🤘 Hit** 👉 /features To Know More Features Of This Bot.
 
-**- Message @cyniteofficial For More Help -**"""
+**- Message @tulinks_official For More Help -**"""
 
 BANNER_IMAGE = """
 Usage: `/banner_image image_url` or reply to any Image with this command
